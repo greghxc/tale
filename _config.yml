@@ -2,7 +2,7 @@
 permalink:      /:year-:month-:day/:title
 
 # Setup
-title:          Tale
+title:          HACKSY.ORG
 paginate:       5
 baseurl:        ""
 url:            "https://chesterhow.github.io/tale"
@@ -17,15 +17,17 @@ markdown:       kramdown
 
 # About
 author:
-  name:         Chester How
-  url:          http://chester.how
-  email:        chesterhow@gmail.com
+  name:         Greg Mertzlufft
+  url:          http://hacksy.org
+  email:        greg@hacksy.org
 
 # Custom vars
-version:        3.4.1
+version:        0.0.1
 github:
-  repo:         https://github.com/chesterhow/tale
+  repo:         https://github.com/greghxc/tale
 
 # Gems
 gems:
   - jekyll-paginate
+
+excerpt_separator: <!--more-->
